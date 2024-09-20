@@ -50,12 +50,14 @@
             "id": "a80553ae3e96fad2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Rules/Assumed Competence.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Rules/Tree Experiment.canvas",
+                "viewState": {
+                  "x": -43.74379689240114,
+                  "y": 422.9920634535986,
+                  "zoom": -1.3333333333333333
+                }
               }
             }
           }
@@ -126,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rules/Assumed Competence.md",
+                "file": "Rules/Tree Experiment.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rules/Assumed Competence.md",
+                "file": "Rules/Tree Experiment.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rules/Assumed Competence.md"
+                "file": "Rules/Tree Experiment.canvas"
               }
             }
           }
@@ -189,11 +191,12 @@
   },
   "active": "a80553ae3e96fad2",
   "lastOpenFiles": [
-    "Rules/Avoidance.md",
+    "Rules/Skill Tree.md",
+    "Rules/Tree Experiment.canvas",
     "Rules/Assumed Competence.md",
+    "Rules/Avoidance.md",
     "Rules/Action Economy.md",
     "Rules",
-    "Rules/Skill Tree.md",
     "README.md",
     "Welcome.md"
   ]
