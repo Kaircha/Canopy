@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"a7418fac67e03f9e","type":"group","x":-920,"y":-360,"width":1666,"height":1470,"label":"Nicholas(1)"},
+		{"id":"60550b2e049a165a","type":"text","text":"###  Name (A | P | S)\nCost: {cost}; Req: {requirement}\nAvoid: {avoid}(1x | 0.5x | 0x), ...\n*{description}*","x":-635,"y":-1240,"width":362,"height":160,"color":"1"},
+		{"id":"e1407597e201835c","type":"text","text":"###  Name (A | P)\nCost: {cost}; Req: {requirement}\nAvoid: {avoid}(1x | 0.5x | 0x), ...\n*{description}*","x":-273,"y":-1240,"width":362,"height":160,"color":"6"},
+		{"id":"46853efd786ee756","type":"text","text":"###  Name \nCost: {cost}; Req: {requirement}\nAvoid: {avoid}(1x | 0.5x | 0x), ...\n*{description}*","x":-635,"y":-1080,"width":362,"height":152,"color":"#4271ff"},
+		{"id":"430515009e36302d","type":"text","text":"###  Name (A | P)\nCost: {cost}; Req: {requirement}\nAvoid: {avoid}(1x | 0.5x | 0x), ...\n*{description}*","x":-275,"y":-1080,"width":362,"height":152,"color":"5"},
+		{"id":"a3a24b8a6d2c71ad","type":"text","text":"###  Name (A | P)\nCost: {cost}; Req: {requirement}\nAvoid: {avoid}(1x | 0.5x | 0x), ...\n*{description}*","x":-635,"y":-928,"width":362,"height":152,"color":"4"},
+		{"id":"dde89ee6c214589a","type":"text","text":"###  Name (A | P)\nCost: {cost}; Req: {requirement}\nAvoid: {avoid}(1x | 0.5x | 0x), ...\n*{description}*","x":-275,"y":-928,"width":362,"height":152,"color":"2"},
+		{"id":"f2091a14dfb46920","type":"text","text":"# STR","x":-756,"y":-1190,"width":121,"height":60,"color":"1"},
+		{"id":"6f19d0c81d3f2919","type":"text","text":"# INT","x":-756,"y":-1034,"width":121,"height":60,"color":"#6c90fe"},
+		{"id":"7ee214c36be8cd7d","type":"text","text":"# DEX","x":-752,"y":-882,"width":121,"height":60,"color":"4"},
+		{"id":"6903678cbb83dd9a","type":"text","text":"# DEX/STR","x":87,"y":-882,"width":183,"height":60,"color":"2"},
+		{"id":"1c52283c2d610797","type":"text","text":"# INT/DEX","x":85,"y":-1034,"width":183,"height":60,"color":"5"},
+		{"id":"0cbb74d0213c5f07","type":"text","text":"# STR/INT","x":89,"y":-1190,"width":183,"height":60,"color":"6"},
+		{"id":"4007672e6ea37097","type":"text","text":"### Taunting Cry (Active)\nCost: 2 Action; Req: Verbal\nAvoid: Resist (0x)\n*Enemies you are in range of are forced to target you with their next action*","x":-722,"y":-300,"width":362,"height":200,"color":"1"},
+		{"id":"b2255c0e7b7aff0f","type":"text","text":"# STR","x":-900,"y":-210,"width":121,"height":60,"color":"1"},
+		{"id":"ea0612f54dfc7ae3","type":"text","text":"### Vengeance slash (Active)\nCost: 2 actions(?); Req: slashing weapon\nAvoid: Endure(0.5x), Dodge(0.5x), Resist(0.5x)\n*Deals X slashing damage and Y dark damage.*\n*Y is higher the lower your HP is*","x":-722,"y":-100,"width":362,"height":236,"color":"6"},
+		{"id":"efea3ef009885155","type":"text","text":"# DEX","x":-900,"y":410,"width":121,"height":60,"color":"4"},
+		{"id":"b850946a9a482e39","type":"text","text":"### Bloodletting (Active)\nCost: 1 action;\n*Deals X damage to yourself to recover Y mana*","x":-360,"y":-100,"width":362,"height":160,"color":"6"},
+		{"id":"873b871e75bc65be","type":"text","text":"# INT","x":-900,"y":212,"width":121,"height":60,"color":"#6c90fe"},
+		{"id":"ea00ec0f28341202","type":"text","text":"### Hyperfocus (Stance)\nCost: 1 action\n_Character can not **dodge** or **endure** while this is active_\n_Character may **resist(0.5x)**  every danger source_\nTODO: something about spells","x":-722,"y":135,"width":362,"height":225,"color":"#4271ff"},
+		{"id":"3d4aed6f00a93e23","type":"text","text":"## Notes\n\nI'm not too sure about the action costs \n","x":-778,"y":-703,"width":250,"height":223},
+		{"id":"58993a1a6e7096c6","type":"text","text":"### Charming gaze (Active)\nCost: 1 action, X mana \nRange: (?); Avoid: resist(0x)\n*Choose a target in range (line of sight required)*\n*The target has disadvantage on their next avoid(dodge) roll*","x":-722,"y":360,"width":362,"height":228,"color":"5"},
+		{"id":"723ab538fd837375","type":"text","text":"### Boom burst\nCost: 1 action, X mana \nRange: (?); Avoid: resist(0.5x), endure(0.5x)\n*Emit a loud sound that hits enemies in an area around you, dealing X damage (sound element??)*\n*Enemies hit are deafened for Y turns*","x":-360,"y":360,"width":362,"height":260,"color":"5"},
+		{"id":"34ce1f52519d02ec","type":"text","text":"###  Fading shot (Active)\nCost: 1 action; Req: bow\nAvoid: Endure (0.5x), Dodge (1x)\n*Does an attack dealing W damage, then moves back 1 unit*","x":-722,"y":620,"width":362,"height":178,"color":"4"},
+		{"id":"c0cbf878f908d3c0","type":"text","text":"### Ricochet (Passive)\n*When an enemy successfully endures an attack, redirect the attack to another target in range for half damage*","x":-722,"y":798,"width":362,"height":152,"color":"2"},
+		{"id":"47caf2c08886ace8","type":"text","text":"###  Sniper's Focus (Active)\nCost: 1 action; Req: ranged weapon\n*Next attack is not dodge-able*\n*mechanically: remove avoid(dodge) tag from next ranged attack* ","x":-360,"y":620,"width":362,"height":178,"color":"4"},
+		{"id":"387e818265500aa5","type":"text","text":"### Burnout \nCost: 1 action\n_Character can not **dodge** or **endure** while this is active_\n_Character may **resist(0.5x)**  every danger source_\nTODO: something about spells","x":-360,"y":136,"width":362,"height":225,"color":"#4271ff"}
+	],
+	"edges":[]
+}
